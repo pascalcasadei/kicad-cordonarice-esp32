@@ -1,0 +1,115 @@
+Info: Totale avvisi: 0, errori: 1.
+Info: Elaborazione simbolo "P2:Pin_Headers:Pin_Header_Straight_1x10".
+Info: Elaborazione simbolo "P1:Pin_Headers:Pin_Header_Straight_1x10".
+Info: Elaborazione simbolo "U1:Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm".
+Info: Elaborazione simbolo "GS1:GS3".
+Info: Elaborazione simbolo "R1:Resistors_SMD:R_0805_HandSoldering".
+Info: Elaborazione simbolo "C1:Capacitors_SMD:C_0805_HandSoldering".
+Info: Elaborazione simbolo "C2:Capacitors_SMD:C_0805_HandSoldering".
+Riconnesso U1 pin 14 da Net-(P2-Pad7) a Net-(P2-P7).
+Riconnesso U1 pin 1 da Net-(P1-Pad2) a Net-(P1-P2).
+Riconnesso U1 pin 18 da Net-(P2-Pad3) a Net-(P2-P3).
+Riconnesso U1 pin 19 da Net-(C2-Pad2) a Net-(P2-P1).
+Riconnesso U1 pin 12 da Net-(P2-Pad9) a Net-(P2-P9).
+Riconnesso U1 pin 13 da Net-(P2-Pad8) a Net-(P2-P8).
+Riconnesso U1 pin 7 da Net-(P1-Pad7) a Net-(P1-P7).
+Riconnesso U1 pin 10 da Net-(GS1-Pad2) a Net-(GS1-G2).
+Riconnesso U1 pin 6 da Net-(P1-Pad6) a Net-(P1-P6).
+Aggiungi collegamento Net-(P2-P8).
+Riconnesso U1 pin 16 da Net-(P2-Pad5) a Net-(P2-P5).
+Riconnesso U1 pin 4 da Net-(P1-Pad4) a Net-(P1-P4).
+Riconnesso U1 pin 8 da Net-(P1-Pad8) a Net-(P1-P8).
+Riconnesso U1 pin 17 da Net-(P2-Pad4) a Net-(P2-P4).
+Aggiornato file foglio U1 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio U1 a '/'.
+Riconnesso R1 pin 2 da Net-(GS1-Pad3) a Net-(GS1-G3).
+Aggiornati filtri impronta R1 a 'Resistor_* R_*'.
+Aggiornato file foglio R1 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio R1 a '/'.
+Riconnesso P2 pin 5 da Net-(P2-Pad5) a Net-(P2-P5).
+Aggiungi collegamento Net-(P2-P5).
+Riconnesso P2 pin 8 da Net-(P2-Pad8) a Net-(P2-P8).
+Riconnesso P2 pin 1 da Net-(C2-Pad2) a Net-(P2-P1).
+Rimossa connessione non usata Net-(P1-Pad6).
+
+
+Rimossa connessione non usata Net-(P2-Pad9).
+Rimossa connessione non usata Net-(P2-Pad8).
+Rimossa connessione non usata Net-(P2-Pad7).
+Rimossa connessione non usata Net-(P2-Pad6).
+Rimossa connessione non usata Net-(P2-Pad5).
+Rimossa connessione non usata Net-(P2-Pad4).
+Rimossa connessione non usata Net-(P2-Pad3).
+Rimossa connessione non usata Net-(P2-Pad2).
+Rimossa connessione non usata Net-(P1-Pad9).
+Rimossa connessione non usata Net-(P1-Pad8).
+Rimossa connessione non usata Net-(P1-Pad7).
+Riconnesso U1 pin 3 da Net-(P1-Pad3) a Net-(P1-P3).
+Rimossa connessione non usata Net-(P1-Pad5).
+Rimossa connessione non usata Net-(P1-Pad4).
+Rimossa connessione non usata Net-(P1-Pad3).
+Rimossa connessione non usata Net-(P1-Pad2).
+Rimossa connessione non usata Net-(GS1-Pad3).
+Rimossa connessione non usata Net-(GS1-Pad2).
+Rimossa connessione non usata Net-(GS1-Pad1).
+Rimossa connessione non usata Net-(C2-Pad2).
+Riconnesso U1 pin 20 da Net-(P2-Pad2) a Net-(P2-P2).
+Riconnesso U1 pin 5 da Net-(P1-Pad5) a Net-(P1-P5).
+Riconnesso U1 pin 9 da Net-(P1-Pad9) a Net-(P1-P9).
+Riconnesso U1 pin 15 da Net-(P2-Pad6) a Net-(P2-P6).
+Riconnesso GS1 pin 1 da Net-(GS1-Pad1) a Net-(GS1-G1).
+Aggiungi collegamento Net-(P1-P7).
+Riconnesso P1 pin 4 da Net-(P1-Pad4) a Net-(P1-P4).
+Aggiungi collegamento Net-(P1-P4).
+Riconnesso P1 pin 3 da Net-(P1-Pad3) a Net-(P1-P3).
+Aggiungi collegamento Net-(P1-P3).
+Aggiornati filtri impronta P1 a 'Pin_Header_Straight_1X10 Pin_Header_Angled_1X10 Socket_Strip_Straight_1X10 Socket_Strip_Angled_1X10'.
+Aggiornato file foglio P1 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio P1 a '/'.
+Riconnesso GS1 pin 3 da Net-(GS1-Pad3) a Net-(GS1-G3).
+Aggiungi collegamento Net-(GS1-G3).
+Riconnesso GS1 pin 2 da Net-(GS1-Pad2) a Net-(GS1-G2).
+Aggiungi collegamento Net-(GS1-G2).
+Riconnesso P1 pin 7 da Net-(P1-Pad7) a Net-(P1-P7).
+Aggiungi collegamento Net-(GS1-G1).
+Rimossi GS1 attributi di fabbricazione 'escludi dalla DIBA'.
+Aggiornato file foglio GS1 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio GS1 a '/'.
+Riconnesso C2 pin 2 da Net-(C2-Pad2) a Net-(P2-P1).
+Aggiungi collegamento Net-(P2-P1).
+Aggiornati filtri impronta C2 a 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Aggiornato file foglio C2 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio C2 a '/'.
+Aggiornati filtri impronta C1 a 'C? C_????_* C_???? SMD*_c Capacitor*'.
+Aggiornato file foglio C1 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiornato nome foglio C1 a '/'.
+Aggiornato file foglio P2 a '/home/pascal/kicad-project/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna/Cordonatrice F.lli Verna.sch'.
+Aggiungi collegamento Net-(P2-P9).
+Riconnesso P2 pin 6 da Net-(P2-Pad6) a Net-(P2-P6).
+Aggiungi collegamento Net-(P2-P6).
+Riconnesso P2 pin 4 da Net-(P2-Pad4) a Net-(P2-P4).
+Aggiungi collegamento Net-(P2-P4).
+Riconnesso P2 pin 2 da Net-(P2-Pad2) a Net-(P2-P2).
+Aggiungi collegamento Net-(P2-P2).
+Riconnesso P2 pin 3 da Net-(P2-Pad3) a Net-(P2-P3).
+Aggiungi collegamento Net-(P2-P3).
+Riconnesso P2 pin 7 da Net-(P2-Pad7) a Net-(P2-P7).
+Aggiungi collegamento Net-(P2-P7).
+Aggiornati filtri impronta P2 a 'Pin_Header_Straight_1X10 Pin_Header_Angled_1X10 Socket_Strip_Straight_1X10 Socket_Strip_Angled_1X10'.
+Riconnesso P2 pin 9 da Net-(P2-Pad9) a Net-(P2-P9).
+Aggiornato nome foglio P2 a '/'.
+Riconnesso P1 pin 10 da Net-(GS1-Pad1) a Net-(GS1-G1).
+Riconnesso P1 pin 6 da Net-(P1-Pad6) a Net-(P1-P6).
+Aggiungi collegamento Net-(P1-P6).
+Riconnesso P1 pin 2 da Net-(P1-Pad2) a Net-(P1-P2).
+Aggiungi collegamento Net-(P1-P2).
+Riconnesso P1 pin 8 da Net-(P1-Pad8) a Net-(P1-P8).
+Aggiungi collegamento Net-(P1-P8).
+Riconnesso P1 pin 5 da Net-(P1-Pad5) a Net-(P1-P5).
+Aggiungi collegamento Net-(P1-P5).
+Riconnesso P1 pin 9 da Net-(P1-Pad9) a Net-(P1-P9).
+Aggiungi collegamento Net-(P1-P9).
+Errore: Impossibile aggiornare GS1 (impronta 'GS3' non trovata).
+
+
+Info: Totale avvisi: 0, errori: 1.

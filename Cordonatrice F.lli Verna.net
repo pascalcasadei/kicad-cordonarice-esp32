@@ -1,0 +1,543 @@
+(export 
+  (version D) 
+  (design 
+    (source /home/errant/Projects/TXS0108_Breakout/TXS010X_Breakout.sch) 
+    (date "Wed 14 Sep 2016 09:57:21 AM CDT") 
+    (tool "Eeschema 4.0.2+dfsg1-stable") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source Cordonatrice F.lli Verna.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value TXS0108e) 
+      (footprint Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm) 
+      (libsource 
+        (lib TXS010X) 
+        (part TXS0108e)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D5BF94)) 
+    (comp 
+      (ref P1) 
+      (value CONN_01X10) 
+      (footprint Pin_Headers:Pin_Header_Straight_1x10) 
+      (libsource 
+        (lib conn) 
+        (part CONN_01X10)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D5C021)) 
+    (comp 
+      (ref P2) 
+      (value CONN_01X10) 
+      (footprint Pin_Headers:Pin_Header_Straight_1x10) 
+      (libsource 
+        (lib conn) 
+        (part CONN_01X10)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D5C134)) 
+    (comp 
+      (ref C2) 
+      (value 0.1uF) 
+      (footprint Capacitors_SMD:C_0805_HandSoldering) 
+      (libsource 
+        (lib device) 
+        (part C_Small)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D6A076)) 
+    (comp 
+      (ref C1) 
+      (value 0.1uF) 
+      (footprint Capacitors_SMD:C_0805_HandSoldering) 
+      (libsource 
+        (lib device) 
+        (part C_Small)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D6A0BF)) 
+    (comp 
+      (ref R1) 
+      (value 0) 
+      (footprint Resistors_SMD:R_0805_HandSoldering) 
+      (libsource 
+        (lib device) 
+        (part R_Small)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D6A5C7)) 
+    (comp 
+      (ref GS1) 
+      (value GS3) 
+      (footprint Connect:GS3) 
+      (libsource 
+        (lib conn) 
+        (part GS3)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 57D96623))) 
+  (libparts 
+    (libpart 
+      (lib conn) 
+      (part CONN_01X10) 
+      (description "Connector 01x10") 
+      (footprints 
+        (fp Pin_Header_Straight_1X10) 
+        (fp Pin_Header_Angled_1X10) 
+        (fp Socket_Strip_Straight_1X10) 
+        (fp Socket_Strip_Angled_1X10)) 
+      (fields 
+        (field 
+          (name Reference) P) 
+        (field 
+          (name Value) CONN_01X10)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name P1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name P2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name P3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name P4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name P5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name P6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name P7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name P8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name P9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name P10) 
+          (type passive)))) 
+    (libpart 
+      (lib device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor") 
+      (footprints 
+        (fp C?) 
+        (fp C_????_*) 
+        (fp C_????) 
+        (fp SMD*_c) 
+        (fp Capacitor*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib conn) 
+      (part GS3) 
+      (fields 
+        (field 
+          (name Reference) GS) 
+        (field 
+          (name Value) GS3) 
+        (field 
+          (name Footprint) GS3)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name G1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name G2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name G3) 
+          (type passive)))) 
+    (libpart 
+      (lib device) 
+      (part R_Small) 
+      (description Resistor) 
+      (footprints 
+        (fp Resistor_*) 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib TXS010X) 
+      (part TXS0108e) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) TXS0108e)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A1) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name VCCA) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name A2) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name A3) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name A4) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name A5) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name A6) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name A7) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name A8) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name OE) 
+          (type input)) 
+        (pin 
+          (num 11) 
+          (name GND) 
+          (type power_out)) 
+        (pin 
+          (num 12) 
+          (name B8) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name B7) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name B6) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name B5) 
+          (type BiDi)) 
+        (pin 
+          (num 16) 
+          (name B4) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name B3) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name B2) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name VCCB) 
+          (type power_in)) 
+        (pin 
+          (num 20) 
+          (name B1) 
+          (type BiDi))))) 
+  (libraries 
+    (library 
+      (logical TXS010X) 
+      (uri "/home/errant/Projects/KiCad Libraries/TXS010X.lib")) 
+    (library 
+      (logical conn) 
+      (uri /usr/share/kicad/library/conn.lib)) 
+    (library 
+      (logical device) 
+      (uri /usr/share/kicad/library/device.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(P1-Pad8)") 
+      (node 
+        (ref P1) 
+        (pin 8)) 
+      (node 
+        (ref U1) 
+        (pin 8))) 
+    (net 
+      (code 2) 
+      (name "Net-(P2-Pad6)") 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref P2) 
+        (pin 6))) 
+    (net 
+      (code 3) 
+      (name "Net-(P2-Pad5)") 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref P2) 
+        (pin 5))) 
+    (net 
+      (code 4) 
+      (name "Net-(P2-Pad4)") 
+      (node 
+        (ref U1) 
+        (pin 17)) 
+      (node 
+        (ref P2) 
+        (pin 4))) 
+    (net 
+      (code 5) 
+      (name "Net-(P2-Pad3)") 
+      (node 
+        (ref P2) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 18))) 
+    (net 
+      (code 6) 
+      (name "Net-(P2-Pad2)") 
+      (node 
+        (ref P2) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 20))) 
+    (net 
+      (code 7) 
+      (name "Net-(C2-Pad2)") 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref P2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 19))) 
+    (net 
+      (code 8) 
+      (name "Net-(P1-Pad9)") 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref P1) 
+        (pin 9))) 
+    (net 
+      (code 9) 
+      (name "Net-(P2-Pad7)") 
+      (node 
+        (ref U1) 
+        (pin 14)) 
+      (node 
+        (ref P2) 
+        (pin 7))) 
+    (net 
+      (code 10) 
+      (name "Net-(P1-Pad7)") 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref P1) 
+        (pin 7))) 
+    (net 
+      (code 11) 
+      (name "Net-(P1-Pad6)") 
+      (node 
+        (ref P1) 
+        (pin 6)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 12) 
+      (name "Net-(P1-Pad5)") 
+      (node 
+        (ref P1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 13) 
+      (name "Net-(P1-Pad4)") 
+      (node 
+        (ref P1) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 14) 
+      (name "Net-(P1-Pad3)") 
+      (node 
+        (ref P1) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 15) 
+      (name "Net-(P1-Pad2)") 
+      (node 
+        (ref P1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 1))) 
+    (net 
+      (code 16) 
+      (name "Net-(GS1-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref GS1) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name "Net-(GS1-Pad1)") 
+      (node 
+        (ref P1) 
+        (pin 10)) 
+      (node 
+        (ref GS1) 
+        (pin 1))) 
+    (net 
+      (code 18) 
+      (name "Net-(GS1-Pad3)") 
+      (node 
+        (ref GS1) 
+        (pin 3)) 
+      (node 
+        (ref R1) 
+        (pin 2))) 
+    (net 
+      (code 19) 
+      (name VCC) 
+      (node 
+        (ref P1) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 20) 
+      (name GND) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref P2) 
+        (pin 10)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1))) 
+    (net 
+      (code 21) 
+      (name "Net-(P2-Pad9)") 
+      (node 
+        (ref P2) 
+        (pin 9)) 
+      (node 
+        (ref U1) 
+        (pin 12))) 
+    (net 
+      (code 22) 
+      (name "Net-(P2-Pad8)") 
+      (node 
+        (ref P2) 
+        (pin 8)) 
+      (node 
+        (ref U1) 
+        (pin 13)))))
