@@ -1,0 +1,1 @@
+# kicad-cordonarice-esp32
