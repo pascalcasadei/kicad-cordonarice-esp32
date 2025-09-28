@@ -1029,6 +1029,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-DEVKITC-32D:ESP32-DEVKITC-32D"
 			(pin_names
 				(offset 1.016)
@@ -6171,6 +6338,12 @@
 		(uuid "11e627f7-2fc7-4820-8646-5fe5ae2d81c4")
 	)
 	(junction
+		(at 68.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "148b644f-2e83-46b3-a617-432800b22abb")
+	)
+	(junction
 		(at 111.76 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6349,6 +6522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84755cb8-a6f0-45b7-8e10-da6e5a8bc928")
+	)
+	(junction
+		(at 68.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b04b87-8b75-436f-9b24-5eb310422dc0")
 	)
 	(junction
 		(at 99.06 154.94)
@@ -7384,6 +7563,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 95.25) (xy 68.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e684bde-38ab-4dc1-9da0-388b2a377371")
+	)
+	(wire
+		(pts
 			(xy 62.23 127) (xy 62.23 129.54)
 		)
 		(stroke
@@ -7411,6 +7600,16 @@
 			(type default)
 		)
 		(uuid "729f3c1e-5646-4b98-9140-2867ae3f6a7e")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7451642a-0b8f-4cd9-8587-98307adfc4ff")
 	)
 	(wire
 		(pts
@@ -7481,6 +7680,16 @@
 			(type default)
 		)
 		(uuid "7ce8bb01-ffb5-41be-aaec-dead50871ee7")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 68.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8142eb5a-78d7-491c-879c-c8612574141e")
 	)
 	(wire
 		(pts
@@ -7844,7 +8053,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 68.58 96.52)
+			(xy 68.58 92.71) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7931,6 +8140,16 @@
 			(type default)
 		)
 		(uuid "b52f32f3-45f9-488d-bfaa-f7e4f60af71b")
+	)
+	(wire
+		(pts
+			(xy 57.15 106.68) (xy 57.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65a0e71-fcff-4269-97ed-5bb91303a3aa")
 	)
 	(wire
 		(pts
@@ -8371,6 +8590,16 @@
 			(type default)
 		)
 		(uuid "dc0e51a0-fb3c-4d63-8b43-7a9d2047b196")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc35b545-13dc-4b54-9d8b-e9443336edc3")
 	)
 	(wire
 		(pts
@@ -12903,6 +13132,94 @@
 			(project "Cordonatrice F.lli Verna"
 				(path "/38ad800e-5bf8-4838-afd2-3c8a02b76649"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 57.15 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1fda443-c6af-4f37-a459-5d8dd1ab4a85")
+		(property "Reference" "D1"
+			(at 51.562 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 48.514 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 61.595 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fefc9b1-7a9d-4cc3-b789-dc9984838eca")
+		)
+		(pin "1"
+			(uuid "7cf50b97-c157-4882-aefa-e59c450211bd")
+		)
+		(instances
+			(project ""
+				(path "/38ad800e-5bf8-4838-afd2-3c8a02b76649"
+					(reference "D1")
 					(unit 1)
 				)
 			)
