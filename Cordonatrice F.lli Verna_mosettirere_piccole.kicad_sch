@@ -4,11 +4,6 @@
 	(generator_version "9.0")
 	(uuid "38ad800e-5bf8-4838-afd2-3c8a02b76649")
 	(paper "A4")
-	(title_block
-		(title "Cordonatrice automatica ")
-		(date "2025-09-30")
-		(company "F.lli Verna")
-	)
 	(lib_symbols
 		(symbol "CONN_01X10_1"
 			(pin_names
@@ -6838,6 +6833,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 138.43) (xy 196.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188e019e-e9ec-4a8a-8059-7e1f9de4ba89")
+	)
+	(wire
+		(pts
 			(xy 198.12 34.29) (xy 213.36 34.29)
 		)
 		(stroke
@@ -7378,16 +7383,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 138.43) (xy 198.12 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514b6455-4a0d-442d-8e05-1de9a24f72de")
-	)
-	(wire
-		(pts
 			(xy 85.09 189.23) (xy 85.09 195.58)
 		)
 		(stroke
@@ -7405,6 +7400,16 @@
 			(type default)
 		)
 		(uuid "5301a8b4-53e7-48e6-a33f-40672b0943f4")
+	)
+	(wire
+		(pts
+			(xy 191.77 143.51) (xy 196.85 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532520dd-56d9-47b1-9e56-430caad1a2a6")
 	)
 	(wire
 		(pts
@@ -7978,16 +7983,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 143.51) (xy 199.39 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2150976-bd9f-4985-85cf-9ec9c75f8997")
-	)
-	(wire
-		(pts
 			(xy 233.68 96.52) (xy 236.22 96.52)
 		)
 		(stroke
@@ -8185,6 +8180,16 @@
 			(type default)
 		)
 		(uuid "b91f4911-d931-4799-90d1-cb11a96b8fd9")
+	)
+	(wire
+		(pts
+			(xy 191.77 156.21) (xy 196.85 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c8583b-2b19-4281-bcf5-8f7fef445fc2")
 	)
 	(wire
 		(pts
@@ -8388,16 +8393,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 156.21) (xy 195.58 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbee878c-8691-40c2-b176-d640c1840e7a")
-	)
-	(wire
-		(pts
 			(xy 222.25 96.52) (xy 222.25 99.06)
 		)
 		(stroke
@@ -8515,16 +8510,6 @@
 			(type default)
 		)
 		(uuid "d4c071a9-9bfd-499d-b358-92ed0fb35dff")
-	)
-	(wire
-		(pts
-			(xy 191.77 156.21) (xy 195.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d604e606-75d4-4104-89e6-9f56964c3853")
 	)
 	(wire
 		(pts
@@ -8698,6 +8683,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 161.29) (xy 196.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86705a8-ed89-4262-963e-2bf02021cba2")
+	)
+	(wire
+		(pts
 			(xy 151.13 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -8725,16 +8720,6 @@
 			(type default)
 		)
 		(uuid "ec797fe0-faca-4f21-8b5f-44e59e6268fa")
-	)
-	(wire
-		(pts
-			(xy 191.77 161.29) (xy 195.58 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea2e4be-cafa-44bb-af5f-fdda49ce25f8")
 	)
 	(wire
 		(pts
@@ -9118,7 +9103,7 @@
 	)
 	(global_label "ENABLE_PIN_Y"
 		(shape input)
-		(at 195.58 156.21 0)
+		(at 196.85 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9128,7 +9113,7 @@
 		)
 		(uuid "318339a2-996f-47dd-82aa-6a877aa964e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.1553 156.21 0)
+			(at 212.4253 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9895,7 @@
 	)
 	(global_label "STEP_PIN_X"
 		(shape input)
-		(at 199.39 143.51 0)
+		(at 196.85 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9920,7 +9905,7 @@
 		)
 		(uuid "cbd11b69-48d0-476d-b2b7-a28bd8fb4254")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6671 143.51 0)
+			(at 210.1271 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10115,7 @@
 	)
 	(global_label "STEP_PIN_Y"
 		(shape input)
-		(at 195.58 161.29 0)
+		(at 196.85 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10140,7 +10125,7 @@
 		)
 		(uuid "ecc5e837-b1e8-4432-b4b6-bceff05ff1bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.7362 161.29 0)
+			(at 210.0062 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10181,7 @@
 	)
 	(global_label "ENABLE_PIN_X"
 		(shape input)
-		(at 198.12 138.43 0)
+		(at 196.85 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10206,7 +10191,7 @@
 		)
 		(uuid "f8353de9-cdb0-4cf0-8ac4-19c0a99693ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8162 138.43 0)
+			(at 212.5462 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
